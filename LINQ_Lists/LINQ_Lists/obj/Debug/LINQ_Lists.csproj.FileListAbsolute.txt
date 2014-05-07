@@ -1,0 +1,6 @@
+C:\Projects\LINQ_Lists\LINQ_Lists\bin\Debug\LINQ_Lists.exe.config
+C:\Projects\LINQ_Lists\LINQ_Lists\bin\Debug\LINQ_Lists.exe
+C:\Projects\LINQ_Lists\LINQ_Lists\bin\Debug\LINQ_Lists.pdb
+C:\Projects\LINQ_Lists\LINQ_Lists\obj\Debug\LINQ_Lists.csprojResolveAssemblyReference.cache
+C:\Projects\LINQ_Lists\LINQ_Lists\obj\Debug\LINQ_Lists.exe
+C:\Projects\LINQ_Lists\LINQ_Lists\obj\Debug\LINQ_Lists.pdb
