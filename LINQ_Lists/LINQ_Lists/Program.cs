@@ -28,20 +28,24 @@ namespace LINQ_Lists
 
             foreach (var item in foundTeams.Teams)
             {
-                var asd = (from c in matches
+                var selectedBets = (from c in matches
                            where (c.TeamA.Contains(item.ToString()) || c.TeamB.Contains(item.ToString()))
                            select new Bets()
                            {
                                GameCode = c.GameCode
                            }).ToList();
-                foreach (var item2 in asd)
+                foreach (var item2 in selectedBets)
                 {
                     bets.Add(item2);
                 }
             }
-
-
-            Console.Write("asd");
+            
+            //Check results
+            foreach (var bet in bets)
+            {
+                Console.WriteLine(bet.GameCode);
+            }
+            Console.Read();
         }
     }
 
